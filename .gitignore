@@ -1,0 +1,50 @@
+# ---- Virtual Environment ----
+env/
+venv/
+.venv/
+
+# ---- Python Cache ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+.ipynb_checkpoints/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Large Data Files (DO NOT upload to GitHub) ----
+data/
+datasets/
+raw_data/
+processed_data/
+*.nc
+*.tif
+*.tiff
+*.img
+*.grd
+*.bil
+*.hdf
+*.shp
+*.shx
+*.dbf
+*.prj
+*.xml
+*.geojson
+*.zip
+*.7z
+*.tar
+*.rar
+*.csv
+*.xlsx
+*.parquet
+
+# ---- Model Files ----
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
